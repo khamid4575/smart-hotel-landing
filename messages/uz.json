@@ -1,0 +1,21 @@
+{
+  "navigation": {
+    "features": "Afzalliklar",
+    "pricing": "Narxlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "signIn": "Kirish",
+    "signUp": "Ro'yxatdan o'tish"
+  },
+  "hero": {
+    "revolutionizeYour": "Zamonaviy",
+    "hotelManagement": "Mehmonxona Boshqaruv tizimi",
+    "description": "Smart Hotel PMS aqlli bron qilish boshqaruvi, real vaqtda monitoring va kuchli tahlillar bilan operatsiyalaringizni soddalashtiradi. Samaradorlikni 70% ga oshiring va daromadni ko‘paytiring.",
+    "getStartedFree": "Bepul boshlash",
+    "getConsultation": "Konsultatsiya olish"
+  },
+  "about": {
+    "title": "Smart Hotel PMS haqida",
+    "description": ""
+  }
+}
