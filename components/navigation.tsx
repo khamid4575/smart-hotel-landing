@@ -1,13 +1,15 @@
 "use client";
 
+import { Menu, X } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Menu, X, LogIn, UserPlus } from "lucide-react";
-import Link from "next/link";
+
 import Image from "next/image";
+import Link from "next/link";
 import Language from "./Language";
 
 export function Navigation() {
+  const t = useTranslations("navigation");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -25,7 +27,7 @@ export function Navigation() {
                 loading="lazy"
               />
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Smart Hotel PMS
+                Smart Hotel
               </h1>
             </div>
           </div>
@@ -36,25 +38,25 @@ export function Navigation() {
                 href="#features"
                 className="text-gray-700 hover:text-blue-600 transition-colors"
               >
-                Features
+                {t("features")}
               </Link>
               <Link
                 href="#pricing"
                 className="text-gray-700 hover:text-blue-600 transition-colors"
               >
-                Pricing
+                {t("pricing")}
               </Link>
               <Link
                 href="#about"
                 className="text-gray-700 hover:text-blue-600 transition-colors"
               >
-                About
+                {t("about")}
               </Link>
               <Link
                 href="#contact"
                 className="text-gray-700 hover:text-blue-600 transition-colors"
               >
-                Contact
+                {t("contact")}
               </Link>
               <Link
                 href="#faq"
@@ -65,12 +67,16 @@ export function Navigation() {
               <div className="flex items-center space-x-">
                 <div className="text-gray-700 hover:text-blue-600 flex items- space-x-2 cursor-pointer">
                   {/* <LogIn className="h-4 w-4" /> */}
-                  <span>Sign in</span>
+                  <Link href="https://smart-hotel-eta.vercel.app/">
+                    <span>{t("signIn")}</span>
+                  </Link>
                 </div>
                 <span className="mx-1.5">/</span>
                 <div className="text-gray-700 hover:text-blue-600 flex items-center space-x-2 mr-8 cursor-pointer">
                   {/* <UserPlus className="h-4 w-4" /> */}
-                  <span>Sign up</span>
+                  <Link href="https://smart-hotel-eta.vercel.app/">
+                    <span>{t("signUp")}</span>
+                  </Link>
                 </div>
                 <Language />
                 {/* <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
@@ -103,25 +109,25 @@ export function Navigation() {
               href="#features"
               className="block px-3 py-2 text-gray-700 hover:text-blue-600"
             >
-              Features
+              {t("features")}
             </Link>
             <Link
               href="#pricing"
               className="block px-3 py-2 text-gray-700 hover:text-blue-600"
             >
-              Pricing
+              {t("pricing")}
             </Link>
             <Link
               href="#about"
               className="block px-3 py-2 text-gray-700 hover:text-blue-600"
             >
-              About
+              {t("about")}
             </Link>
             <Link
               href="#contact"
               className="block px-3 py-2 text-gray-700 hover:text-blue-600"
             >
-              Contact
+              {t("contact")}
             </Link>
             <Link
               href="#faq"
@@ -134,12 +140,16 @@ export function Navigation() {
                 <div className="flex">
                   <div className="text-gray-700 hover:text-blue-600 ">
                     {/* <LogIn className="h-4 w-4 mr-2" /> */}
-                    Sign in
+                    <Link href="https://smart-hotel-eta.vercel.app/">
+                      <span>{t("signIn")}</span>
+                    </Link>
                   </div>
                   <span className="mx-1.5">/</span>
                   <div className="text-gray-700 hover:text-blue-600">
                     {/* <UserPlus className="h-4 w-4 mr-2" /> */}
-                    Sign up
+                    <Link href="https://smart-hotel-eta.vercel.app/">
+                      <span>{t("signUp")}</span>
+                    </Link>
                   </div>
                 </div>
                 <Language />

@@ -8,7 +8,7 @@ import { Check } from "lucide-react"
 const pricingPlans = [
   {
     name: "Starter",
-    price: "$99",
+    price: "$49",
     period: "/month",
     description: "Perfect for small hotels and B&Bs",
     features: [
@@ -22,7 +22,7 @@ const pricingPlans = [
   },
   {
     name: "Business",
-    price: "$299",
+    price: "$99",
     period: "/month",
     description: "Ideal for mid-size hotels and resorts",
     features: [

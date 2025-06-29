@@ -10,12 +10,61 @@
   "hero": {
     "revolutionizeYour": "Zamonaviy",
     "hotelManagement": "Mehmonxona Boshqaruv tizimi",
-    "description": "Smart Hotel PMS aqlli bron qilish boshqaruvi, real vaqtda monitoring va kuchli tahlillar bilan operatsiyalaringizni soddalashtiradi. Samaradorlikni 70% ga oshiring va daromadni ko‘paytiring.",
+    "description": "Smart Hotel PMS bronlashning aqlli boshqaruvi, real vaqtda monitoring va kuchli tahlillar yordamida operatsiyalaringizni soddalashtiradi. Samaradorlik va daromadni oshiring.",
     "getStartedFree": "Bepul boshlash",
     "getConsultation": "Konsultatsiya olish"
   },
+
   "about": {
     "title": "Smart Hotel PMS haqida",
-    "description": ""
+    "description": "Biz mehmonxona sohasini tubdan o'zgartirishga intilamiz, mehmonxonalar, dam olish maskanlari va turar joy provayderlariga samarasizlikni bartaraf qiluvchi va imkoniyatlarni maksimal darajada oshiruvchi ilg'or texnologiyalarni taqdim etamiz.",
+    "eliminateManualProcesses": "Qo‘lda bajariladigan jarayonlarni yo‘q qilish",
+    "eliminateManualProcessesDescription": "Takroriy vazifalarni avtomatlashtirish va inson xatolarini 85% gacha kamaytirish.",
+    "maximizeRevenuePotential": "Daromadni oshirish",
+    "maximizeRevenuePotentialDescription": "Aqlli narxlash va tahlil yordamida foydangizni ko'paytiring.",
+    "enhanceGuestExperience": "Mehmon tajribasini yaxshilash",
+    "enhanceGuestExperienceDescription": "Sodda check-in/check-out jarayoni va shaxsiylashtirilgan xizmat ko‘rsatish",
+    "founded": "Tashkil etilgan",
+    "teamMembers": "Jamoa a'zolari",
+    "support": "Qo'llab-quvvatlash",
+    "ourMission": "Bizning vazifamiz",
+    "ourMissionDescription": "Har qanday o'lchamdagi mehmonxonalarga qulay va zamonaviy boshqaruv vositalarini taqdim etish, aqlli texnologiyalarni hamma uchun ochiq, arzon va foydalanishda qulay qilish. Biz har bir mehmonxona mehmonlar qoniqishini oshirish, jarayonlarni soddalashtirish va tez o'zgaruvchan dunyoda daromadlilikni oshirish imkoniyatiga ega bo'lishi kerak deb hisoblaymiz.",
+    "comprehensive": "Keng qamrovli",
+    "efficient": "Samarali",
+    "excellence": "Qulay",
+    "costEffective": "Tejamkor",
+    "room": "Xona",
+    "cleaned": "Tozalangan",
+    "revenueAnalytics": "Daromad tahlili",
+    "realTimeInsights": "Real vaqt tahlili",
+    "newBooking": "Yangi bron",
+    "suite": "Suit"
+  },
+  "features": {
+    "title": "Zamonaviy mehmonxonalar uchun kuchli xususiyatlar",
+    "description": "Mehmonxonangizni samarali boshqarish va mehmonlarga ajoyib tajriba taqdim etish uchun barcha kerakli vositalar.",
+    "bookingManagement": "Bronlarni boshqarish",
+    "bookingManagementDescription": "Aqlli bron tizimi va real vaqtdagi mavjudlik ma'lumotlari bilan bronlarni soddalashtirish.",
+    "realTimeRoomMonitoring": "Xonalarni real vaqtda kuzatish",
+    "realTimeRoomMonitoringDescription": "Xona holati, tozalik jarayoni va texnik xizmat ehtiyojlarini darhol kuzatish.",
+    "financialReporting": "Moliyaviy hisobotlar",
+    "financialReportingDescription": "Daromadni optimallashtirish va natijalarni kuzatish uchun keng qamrovli tahlillar va hisobotlar.",
+    "staffPerformance": "Xodimlar samaradorligi",
+    "staffPerformanceDescription": "Samarali rejalashtirish, vazifalarni taqsimlash va xodimlarning ish faoliyatini kuzatish.",
+    "multiLanguageCurrency": "Ko'p tilli & valyuta",
+    "multiLanguageCurrencyDescription": "Bir nechta til va valyutaga ega xalqaro mehmonlarni qo'llab-quvvatlash.",
+    "advancedSecurity": "Ilg‘or xavfsizlik",
+    "advancedSecurityDescription": "Mehmon ma'lumotlarini ishonchli xavfsizlik protokollari, foydalanuvchi ruxsatnomalari va operatsiyalar tarixi bilan himoya qilish."
+  },
+    "benefits": {
+    "whyChoose": "Nega Smart Hotel PMS-ni tanlash kerak?",
+    "saveTime": "Vaqtni tejash",
+    "saveTimeDescription": "Odatiy vazifalarni avtomatlashtirish va qo'lda bajariladigan ishlarni kamaytirish",
+    "increaseRevenue": "Daromadni oshirish",
+    "increaseRevenueDescription": "Aqlli tahlillar yordamida narxlash va bandlik darajasini optimallashtirish",
+    "reduceErrors": "Xatolarni kamaytirish",
+    "reduceErrorsDescription": "Avtomatlashtirilgan jarayonlar bilan inson xatolarini minimallashtirish",
+    "easyToUse": "Foydalanish oson",
+    "easyToUseDescription": "Minimal tayyorgarlikni talab qiladigan qulay interfeys"
   }
 }

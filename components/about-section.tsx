@@ -2,8 +2,10 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Check, BarChart3, Calendar } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export function AboutSection() {
+  const t = useTranslations("about");
   return (
     <section
       id="about"
@@ -21,7 +23,7 @@ export function AboutSection() {
           <div className="fade-in-on-scroll">
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full text-sm font-medium text-blue-700 mb-6">
               <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
-              About Smart Hotel PMS
+              {t("title")}
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -35,10 +37,7 @@ export function AboutSection() {
             </h2>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              We're on a mission to revolutionize the hospitality industry by
-              empowering hotels, resorts, and accommodation providers with
-              cutting-edge technology that eliminates inefficiencies and
-              maximizes potential.
+              {t("description")}
             </p>
 
             {/* Key points */}
@@ -49,11 +48,10 @@ export function AboutSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">
-                    Eliminate Manual Processes
+                    {t("eliminateManualProcesses")}
                   </h4>
                   <p className="text-gray-600">
-                    Automate repetitive tasks and reduce human error by up to
-                    85%
+                    {t("eliminateManualProcessesDescription")}
                   </p>
                 </div>
               </div>
@@ -64,10 +62,10 @@ export function AboutSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">
-                    Maximize Revenue Potential
+                    {t("maximizeRevenuePotential")}
                   </h4>
                   <p className="text-gray-600">
-                    Smart pricing and analytics to boost your bottom line
+                    {t("maximizeRevenuePotentialDescription")}
                   </p>
                 </div>
               </div>
@@ -78,10 +76,10 @@ export function AboutSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">
-                    Enhance Guest Experience
+                    {t("enhanceGuestExperience")}
                   </h4>
                   <p className="text-gray-600">
-                    Seamless check-in/out and personalized service delivery
+                    {t("enhanceGuestExperienceDescription")}
                   </p>
                 </div>
               </div>
@@ -93,17 +91,17 @@ export function AboutSection() {
                 <div className="text-2xl font-bold text-gray-900 mb-1">
                   2025
                 </div>
-                <div className="text-sm text-gray-600">Founded</div>
+                <div className="text-sm text-gray-600">{t("founded")}</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-gray-900 mb-1">3+</div>
-                <div className="text-sm text-gray-600">Team Members</div>
+                <div className="text-sm text-gray-600">{t("teamMembers")}</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-gray-900 mb-1">
                   24/7
                 </div>
-                <div className="text-sm text-gray-600">Support</div>
+                <div className="text-sm text-gray-600">{t("support")}</div>
               </div>
             </div>
           </div>
@@ -122,10 +120,10 @@ export function AboutSection() {
                         </div>
                         <div>
                           <div className="font-semibold text-gray-900">
-                            Revenue Analytics
+                            {t("revenueAnalytics")}
                           </div>
                           <div className="text-sm text-gray-500">
-                            Real-time insights
+                            {t("realTimeInsights")}
                           </div>
                         </div>
                       </div>
@@ -153,9 +151,9 @@ export function AboutSection() {
                     </div>
                     <div>
                       <div className="text-sm font-semibold text-gray-900">
-                        Room 204
+                        {t("room")} 204
                       </div>
-                      <div className="text-xs text-gray-500">Cleaned</div>
+                      <div className="text-xs text-gray-500">{t("cleaned")}</div>
                     </div>
                   </div>
                 </div>
@@ -169,9 +167,9 @@ export function AboutSection() {
                     </div>
                     <div>
                       <div className="text-sm font-semibold text-gray-900">
-                        New Booking
+                        {t("newBooking")}
                       </div>
-                      <div className="text-xs text-gray-500">Suite 301</div>
+                      <div className="text-xs text-gray-500">{t("suite")} 301</div>
                     </div>
                   </div>
                 </div>
@@ -189,14 +187,10 @@ export function AboutSection() {
         <div className="mt-20 text-center fade-in-on-scroll">
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-              Our Mission
+              {t("ourMission")}
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              To empower every hotel, regardless of size, with intuitive and
-              advanced management tools—making smart technology accessible,
-              affordable, and easy to use. We believe every property deserves
-              the capability to enhance guest satisfaction, streamline
-              operations, and grow profitability in a rapidly changing world.
+              {t("ourMissionDescription")}
             </p>
 
             {/* Target audience badges */}
@@ -205,25 +199,25 @@ export function AboutSection() {
                 variant="secondary"
                 className="px-4 py-2 text-sm bg-blue-100 text-blue-700 hover:bg-blue-200"
               >
-                Comprehensive
+                {t("comprehensive")}
               </Badge>
               <Badge
                 variant="secondary"
                 className="px-4 py-2 text-sm bg-purple-100 text-purple-700 hover:bg-purple-200"
               >
-                Efficient
+                {t("efficient")}
               </Badge>
               <Badge
                 variant="secondary"
                 className="px-4 py-2 text-sm bg-green-100 text-green-700 hover:bg-green-200"
               >
-                Excellence
+                {t("excellence")}
               </Badge>
               <Badge
                 variant="secondary"
                 className="px-4 py-2 text-sm bg-orange-100 text-orange-700 hover:bg-orange-200"
               >
-                Cost-effective
+                {t("costEffective")}
               </Badge>
             </div>
           </div>
