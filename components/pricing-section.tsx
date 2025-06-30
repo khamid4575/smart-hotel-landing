@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Check } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 const pricingPlans = [
   {
@@ -53,12 +54,13 @@ const pricingPlans = [
 ]
 
 export function PricingSection() {
+  const t = useTranslations("pricing")
   return (
     <section id="pricing" className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 fade-in-on-scroll">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Simple, Transparent Pricing</h2>
-          <p className="text-xl text-gray-600">Choose the plan that fits your property size and needs</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">{t("title")}</h2>
+          <p className="text-xl text-gray-600">{t("description")}</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -69,7 +71,7 @@ export function PricingSection() {
             >
               {plan.popular && (
                 <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-blue-600 to-purple-600">
-                  Most Popular
+                  {t("mostPopular")}
                 </Badge>
               )}
               <CardHeader className="text-center">

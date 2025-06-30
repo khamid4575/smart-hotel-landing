@@ -66,7 +66,7 @@ export default function SmartHotelLanding() {
       <FeaturesSection />
       <BenefitsSection />
       <StatisticsSection />
-      <ScreenshotsSection />
+      {/* <ScreenshotsSection /> */}
       {/* <TestimonialsSection /> */}
       <PricingSection />
       <CTASection />

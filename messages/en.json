@@ -16,7 +16,8 @@
   },
   "about": {
     "title": "About Smart Hotel PMS",
-    "description": "We're on a mission to revolutionize the hospitality industry by empowering hotels, resorts, and accommodation providers with cutting-edge technology that eliminates inefficiencies and maximizes potential.",
+    "heading": "We make hotel management easier",
+    "description": "We provide every hotel with the latest management system and facilitates everyday process, and we create new opportunities for the hotel business.",
     "eliminateManualProcesses": "Eliminate Manual Processes",
     "eliminateManualProcessesDescription": "Automate repetitive tasks and reduce human error by up to 85%",
     "maximizeRevenuePotential": "Maximize Revenue Potential",
@@ -66,7 +67,7 @@
     "easyToUse": "Easy to Use",
     "easyToUseDescription": "Intuitive interface that requires minimal training"
   },
-  "statisticsSection": {
+  "statistics": {
     "hotelsOnboard": "Hotels Onboarded",
     "uptimeGuarantee": "Uptime Guarantee",
     "reservationsProcessed": "Reservations Processed"
@@ -75,43 +76,63 @@
     "title": "See Smart Hotel in Action",
     "description": "Explore our intuitive dashboard and powerful features",
     "dashboardOverview": "Dashboard Overview",
-    "dashboardOverviewDescription": "Get a complete view of your property's performance at a glance.",
+    "dashboardOverviewDescription": "Get a complete view of your hotel's performance at a glance.",
     "bookingManagement": "Booking Management",
     "bookingManagementDescription": "Streamline reservations with our intelligent booking system."
   },
   "pricing": {
     "title": "Simple, Transparent Pricing",
-    "description": "Choose the plan that fits your property size and needs"
+    "description": "Choose the plan that fits your property size and needs",
+    "mostPopular": "Most Popular"
   },
   "cta": {
     "title": "Ready to Transform Your Hotel Operations?",
-    "description": "Join 500+ hotels already using Smart Hotel PMS to increase efficiency and revenue.",
+    "description": "Join 10+ hotels already using Smart Hotel PMS to increase efficiency and revenue.",
     "startFreeTrial": "Start Free Trial"
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "implementation": "How long does implementation take?",
-    "implementationAnswer": "Implementation typically takes 2-4 weeks depending on your property size and requirements. Our team provides full support throughout the process."
+    "faq1": {
+      "question": "How long does implementation take?",
+      "answer": "Implementation is instant and hassle-free. You can start using the Smart Hotel PMS immediately with simple setup and intuitive onboarding tools."
+    },
+    "faq2": {
+      "question": "How secure is guest data in your system?",
+      "answer": "We use industry-leading encryption and security protocols to protect guest data. Our system complies with GDPR and other data protection regulations."
+    },
+    "faq3": {
+      "question": "Is training provided?",
+      "answer": "We provide comprehensive training for your staff, including video tutorials and live training sessions."
+    },
+    "faq4": {
+      "question": "What integrations are available?",
+      "answer": "Smart Hotel PMS integrates with major booking platforms (Booking.com, Expedia, Exelly), payment processors and more."
+    },
+    "faq5": {
+      "question": "How does passport scanning work?",
+      "answer": "Receptionist scan their passport using a scanner; our ML-powered OCR extracts and auto-fills guest data instantly, reducing manual entry errors."
+    }
   },
   "contacts": {
     "title": "Get in Touch",
-    "description": "Ready to see how Smart Hotel PMS can transform your property?",
+    "description": "Ready to see how Smart Hotel PMS can transform your hotel ?",
     "name": "Name",
     "yourFullName": "Your Full Name",
     "email": "Email",
     "phone": "Phone",
     "yourPhoneNumber": "Your Phone Number",
     "hotelName": "Hotel Name",
-    "yourHotelName": "Your Hotel/property name",
+    "yourHotelName": "Your Hotel name",
     "message": "Message",
-    "yourMessage": "Tell us about your property and requirements",
+    "yourMessage": "Tell us about your hotel and requirements",
     "sendMessage": "Send Message"
   },
   "footer": {
     "description": "Revolutionizing hotel management with intelligent technology and exceptional support.",
-    "inegrations": "Integrations",
     "allRightsReserved": "All rights reserved.",
     "helpCenter": "Help Center",
+    "quickLinks": "Quick Links",
+    "support": "Support",
     "documentation": "Documentation",
     "training": "Training",
     "contact": "Contact",

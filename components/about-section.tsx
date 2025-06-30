@@ -27,13 +27,14 @@ export function AboutSection() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Transforming
+              {t("heading")}
+              {/* Transforming
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 {" "}
                 Hospitality
               </span>
               <br />
-              One Hotel at a Time
+              One Hotel at a Time */}
             </h2>
 
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
