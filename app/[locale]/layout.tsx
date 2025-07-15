@@ -5,9 +5,8 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.dev",
+  title: "Smart Hotel",
+  description: "Smart Hotel PMS",
 };
 
 export default async function RootLayout({
