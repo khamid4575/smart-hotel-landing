@@ -1,0 +1,147 @@
+{
+  "navigation": {
+    "features": "Afzalliklar",
+    "pricing": "Narxlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "signIn": "Kirish",
+    "signUp": "Ro'yxatdan o'tish"
+  },
+  "hero": {
+    "revolutionizeYour": "Zamonaviy",
+    "hotelManagement": "Mehmonxona Boshqaruv tizimi",
+    "description": "Smart Hotel PMS bronlashning aqlli boshqaruvi, real vaqtda monitoring va kuchli tahlillar yordamida operatsiyalaringizni soddalashtiradi. Samaradorlik va daromadni oshiring.",
+    "getStartedFree": "Bepul boshlash",
+    "getConsultation": "Konsultatsiya olish"
+  },
+
+  "about": {
+    "title": "Smart Hotel PMS haqida",
+    "heading": "Biz bilan mehmonxona boshqaruvi yanada oson",
+    "description": "Biz har bir mehmonxonani eng zamonaviy boshqaruv tizimi bilan ta’minlab, kundalik jarayonlarni osonlashtiramiz, mehmonlarga xizmat ko‘rsatishni yanada sifatli qilamiz va mehmonxonalar biznesini rivojlantirish uchun yangi imkoniyatlar yaratamiz.",
+    "eliminateManualProcesses": "Qo‘lda bajariladigan jarayonlarni yo‘q qilish",
+    "eliminateManualProcessesDescription": "Takroriy vazifalarni avtomatlashtirish va inson xatolarini 85% gacha kamaytirish.",
+    "maximizeRevenuePotential": "Daromadni oshirish",
+    "maximizeRevenuePotentialDescription": "Aqlli narxlash va tahlil yordamida foydangizni ko'paytiring.",
+    "enhanceGuestExperience": "Mehmon tajribasini yaxshilash",
+    "enhanceGuestExperienceDescription": "Sodda check-in/check-out jarayoni va shaxsiylashtirilgan xizmat ko‘rsatish",
+    "founded": "Tashkil etilgan",
+    "teamMembers": "Jamoa a'zolari",
+    "support": "Qo'llab-quvvatlash",
+    "ourMission": "Bizning vazifamiz",
+    "ourMissionDescription": "Har qanday o'lchamdagi mehmonxonalarga qulay va zamonaviy boshqaruv vositalarini taqdim etish, aqlli texnologiyalarni hamma uchun ochiq, arzon va foydalanishda qulay qilish. Biz har bir mehmonxona mehmonlar qoniqishini oshirish, jarayonlarni soddalashtirish va tez o'zgaruvchan dunyoda daromadlilikni oshirish imkoniyatiga ega bo'lishi kerak deb hisoblaymiz.",
+    "comprehensive": "Keng qamrovli",
+    "efficient": "Samarali",
+    "excellence": "Qulay",
+    "costEffective": "Tejamkor",
+    "room": "Xona",
+    "cleaned": "Tozalangan",
+    "revenueAnalytics": "Daromad tahlili",
+    "realTimeInsights": "Real vaqt tahlili",
+    "newBooking": "Yangi bron",
+    "suite": "Suit"
+  },
+  "features": {
+    "title": "Zamonaviy mehmonxonalar uchun kuchli xususiyatlar",
+    "description": "Mehmonxonangizni samarali boshqarish va mehmonlarga ajoyib tajriba taqdim etish uchun barcha kerakli vositalar.",
+    "bookingManagement": "Bronlarni boshqarish",
+    "bookingManagementDescription": "Aqlli bron tizimi va real vaqtdagi mavjudlik ma'lumotlari bilan bronlarni soddalashtirish.",
+    "realTimeRoomMonitoring": "Xonalarni real vaqtda kuzatish",
+    "realTimeRoomMonitoringDescription": "Xona holati, tozalik jarayoni va texnik xizmat ehtiyojlarini darhol kuzatish.",
+    "financialReporting": "Moliyaviy hisobotlar",
+    "financialReportingDescription": "Daromadni optimallashtirish va natijalarni kuzatish uchun keng qamrovli tahlillar va hisobotlar.",
+    "staffPerformance": "Xodimlar samaradorligi",
+    "staffPerformanceDescription": "Samarali rejalashtirish, vazifalarni taqsimlash va xodimlarning ish faoliyatini kuzatish.",
+    "multiLanguageCurrency": "Ko'p tilli & valyuta",
+    "multiLanguageCurrencyDescription": "Bir nechta til va valyutaga ega xalqaro mehmonlarni qo'llab-quvvatlash.",
+    "advancedSecurity": "Ilg‘or xavfsizlik",
+    "advancedSecurityDescription": "Mehmon ma'lumotlarini ishonchli xavfsizlik protokollari, foydalanuvchi ruxsatnomalari va operatsiyalar tarixi bilan himoya qilish."
+  },
+  "benefits": {
+    "whyChoose": "Nega Smart Hotel PMS-ni tanlash kerak?",
+    "saveTime": "Vaqtni tejash",
+    "saveTimeDescription": "Odatiy vazifalarni avtomatlashtirish va qo'lda bajariladigan ishlarni kamaytirish",
+    "increaseRevenue": "Daromadni oshirish",
+    "increaseRevenueDescription": "Aqlli tahlillar yordamida narxlash va bandlik darajasini optimallashtirish",
+    "reduceErrors": "Xatolarni kamaytirish",
+    "reduceErrorsDescription": "Avtomatlashtirilgan jarayonlar bilan inson xatolarini minimallashtirish",
+    "easyToUse": "Foydalanish oson",
+    "easyToUseDescription": "Minimal tayyorgarlikni talab qiladigan qulay interfeys"
+  },
+  "statistics": {
+    "hotelsOnboard": "Ulangan mehmonxonalar",
+    "uptimeGuarantee": "Ish vaqti kafolati",
+    "reservationsProcessed": "Qayta ishlangan bronlar"
+  },
+  "screenshots": {
+    "title": "Smart Hotelning ish jarayonini ko‘ring",
+    "description": "Bizning qulay boshqaruv panelimiz va kuchli xususiyatlarimizni o'rganing",
+    "dashboardOverview": "Boshqaruv paneli umumiy ko'rinishi",
+    "dashboardOverviewDescription": "Mehmonxonangiz qanday ishlashini bir qarashda to'liq ko'ring.",
+    "bookingManagement": "Bronlarni boshqarish",
+    "bookingManagementDescription": "Aqlli bron tizimimiz bilan bronlarni soddalashtiring."
+  },
+  "pricing": {
+    "title": "Oddiy, Shaffof Narxlar",
+    "description": "Mehmonxonangizning o'lchami va ehtiyojlariga mos reja tanlang",
+    "mostPopular": "Eng mashhur"
+  },
+  "cta": {
+    "title": "Mehmonxonangizni o'zgartirishga tayyormisiz?",
+    "description": "Samaradorlik va daromadni oshirish uchun Smart Hotel PMS dan foydalanayotgan 10 dan ortiq mehmonxonaga qo'shiling.",
+    "startFreeTrial": "Bepul boshlash"
+  },
+  "faq": {
+    "title": "Tez-tez so'raladigan savollar",
+    "faq1": {
+      "question": "Tizimni to‘liq ishga tushirish qancha vaqt davom etadi ?",
+      "answer": "Tizimni ishga tushurish bir zumda va oson amalga oshiriladi. Smart Hotel PMS tizimini oddiy sozlash va qulay o‘rnatish vositalari yordamida darhol ishlatishni boshlashingiz mumkin"
+    },
+    "faq2": {
+      "question": "Sizning tizimingizda mehmon ma'lumotlari qanchalik xavfsiz ?",
+      "answer": "Biz mehmon ma'lumotlarini himoya qilish uchun soha yetakchisi shifrlash va xavfsizlik protokollaridan foydalanamiz. Tizimimiz GDPR va boshqa ma'lumotlarni himoya qilish qoidalariga mos keladi."
+    },
+    "faq3": {
+      "question": "O'qitish taqdim etiladimi ?",
+      "answer": "Biz sizning xodimlaringiz uchun keng qamrovli o'qitishni taqdim etamiz, shu jumladan video darsliklar va jonli o'quv sessiyalari."
+    },
+    "faq4": {
+      "question": "Qanday integratsiyalar mavjud ?",
+      "answer": "Smart Hotel PMS asosiy bron platformalari (Booking.com, Expedia, Exelly), to'lov protsessorlari va boshqa xizmatlar bilan integratsiyalashadi."
+    },
+    "faq5": {
+      "question": "Pasport skanerlash qanday ishlaydi ?",
+      "answer": "Qabulxona xodimi pasportni skaner yordamida skan qiladi; bizning sun'iy intellektga asoslangan OCR tizimi mehmon ma'lumotlarini bir zumda chiqarib, avtomatik ravishda to'ldiradi va qo'lda kiritish xatolarini kamaytiradi."
+    }
+  },
+  "contacts": {
+    "title": "Biz bilan bog'laning",
+    "description": "Smart Hotel PMS mehmonxonangizni qanday o'zgartirishi mumkinligini bilishga tayyormisiz ?",
+    "name": "Ism",
+    "yourFullName": "To'liq ismingiz",
+    "email": "Elektron pochta",
+    "phone": "Telefon",
+    "yourPhoneNumber": "Telefon raqamingiz",
+    "hotelName": "Mehmonxona nomi",
+    "yourHotelName": "Sizning mehmonxonangiz nomi",
+    "message": "Xabar",
+    "yourMessage": "Mehmonxonangiz va talablaringiz haqida bizga xabar bering",
+    "sendMessage": "Yuborish"
+  },
+    "footer": {
+    "description": "Mehmonxonalarni aqlli texnologiyalar bilan boshqarish va 24/7 qo'llab-quvvatlash.",
+    "allRightsReserved": "Barcha huquqlar himoyalangan.",
+    "helpCenter": "Yordam markazi",
+    "quickLinks": "Tezkor havolalar",
+    "support": "Qo'llab-quvvatlash",
+    "documentation": "Hujjatlar",
+    "training": "O'qitish",
+    "contact": "Aloqa",
+    "newsletter": "Yangiliklar",
+    "newsletterDescription": "Eng so'nggi xususiyatlar va soha yangiliklaridan xabardor bo'ling.",
+    "enterYourEmail": "Elektron pochta",
+    "subscribe": "Obuna bo'lish",
+    "privacyPolicy": "Maxfiylik siyosati",
+    "termsOfService": "Xizmat ko'rsatish shartlari"
+  }
+}
